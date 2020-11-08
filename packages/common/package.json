@@ -1,7 +1,7 @@
 {
   "name": "@junow/rush-common",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is rush-common",
   "main": "index.js",
   "types": "dist/index.d.ts",
   "scripts": {
