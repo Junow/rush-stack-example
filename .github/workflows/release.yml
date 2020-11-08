@@ -28,11 +28,11 @@ jobs:
     - name: rush deploy
       run: rush deploy --overwrite -p @junow/rush-core
     - name: Add GiHub Package Token
-      run: cd common/deploy/packages/core && echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_WEB_PACKAGES_TOKEN }}" > ~/.npmrc && cat ~/.npmrc && ls && pwd
+      run: cd common/deploy/packages/core && echo "//npm.pkg.github.com/:_authToken=${{ secrets.NODE_AUTH_TOKEN }}" > ~/.npmrc && cat ~/.npmrc && ls && pwd
     - name: deploy @junow/rush-core
       run: npm publish
     - name: Add GiHub Package Token
-      run: cd ../common && echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_WEB_PACKAGES_TOKEN }}" > ~/.npmrc
+      run: cd ../common && echo "//npm.pkg.github.com/:_authToken=${{ secrets.NODE_AUTH_TOKEN }}" > ~/.npmrc
     - name: deploy @junow/rush-core
       run: npm publish
       env:
