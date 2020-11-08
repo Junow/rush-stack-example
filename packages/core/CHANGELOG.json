@@ -2,6 +2,18 @@
   "name": "@junow/rush-core",
   "entries": [
     {
+      "version": "1.2.1",
+      "tag": "@junow/rush-core_v1.2.1",
+      "date": "Sun, 08 Nov 2020 17:45:46 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@junow/rush-common\" from `2.2.0` to `2.3.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.2.0",
       "tag": "@junow/rush-core_v1.2.0",
       "date": "Sun, 08 Nov 2020 17:12:08 GMT",

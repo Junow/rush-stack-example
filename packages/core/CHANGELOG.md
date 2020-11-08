@@ -1,6 +1,11 @@
 # Change Log - @junow/rush-core
 
-This log was last generated on Sun, 08 Nov 2020 17:12:08 GMT and should not be manually modified.
+This log was last generated on Sun, 08 Nov 2020 17:45:46 GMT and should not be manually modified.
+
+## 1.2.1
+Sun, 08 Nov 2020 17:45:46 GMT
+
+_Version update only_
 
 ## 1.2.0
 Sun, 08 Nov 2020 17:12:08 GMT
