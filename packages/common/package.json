@@ -1,6 +1,6 @@
 {
   "name": "@junow/rush-common",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "this is rush-common2222222",
   "main": "index.js",
   "types": "dist/index.d.ts",
@@ -22,6 +22,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com"
   }
 }

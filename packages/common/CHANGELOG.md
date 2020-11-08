@@ -1,6 +1,13 @@
 # Change Log - @junow/rush-common
 
-This log was last generated on Sun, 08 Nov 2020 12:28:25 GMT and should not be manually modified.
+This log was last generated on Sun, 08 Nov 2020 17:09:18 GMT and should not be manually modified.
+
+## 2.1.0
+Sun, 08 Nov 2020 17:09:18 GMT
+
+### Minor changes
+
+- add comment
 
 ## 2.0.0
 Sun, 08 Nov 2020 12:28:25 GMT
