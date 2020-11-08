@@ -1,7 +1,7 @@
 {
   "name": "@junow/rush-common",
   "version": "1.0.1",
-  "description": "this is rush-common",
+  "description": "this is rush-common2222222",
   "main": "index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -21,6 +21,7 @@
     "rollup-plugin-typescript2": "^0.29.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
