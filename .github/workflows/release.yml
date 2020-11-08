@@ -20,7 +20,7 @@ jobs:
     - name: rush change
       run: rush change -v
     - name: rush install
-      run: rush install --no-link
+      run: rush install
     - name: rush link
       run: rush link
     - name: rush rebuild
