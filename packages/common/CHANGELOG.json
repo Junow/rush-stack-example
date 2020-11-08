@@ -2,6 +2,23 @@
   "name": "@junow/rush-common",
   "entries": [
     {
+      "version": "2.0.0",
+      "tag": "@junow/rush-common_v2.0.0",
+      "date": "Sun, 08 Nov 2020 12:28:25 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "update description"
+          }
+        ],
+        "major": [
+          {
+            "comment": "update comment"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@junow/rush-common_v1.0.1",
       "date": "Sun, 08 Nov 2020 11:38:05 GMT",

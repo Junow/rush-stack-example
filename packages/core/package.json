@@ -1,6 +1,6 @@
 {
   "name": "@junow/rush-core",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@junow/rush-common": "1.0.1"
+    "@junow/rush-common": "2.0.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.12.1",
