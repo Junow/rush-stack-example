@@ -23,8 +23,10 @@ jobs:
       run: rush install
     - name: rush link
       run: rush link
-    - name: rush rebuild
-      run: rush rebuild --verbose
+    - name: rush build
+      run: rush build
+    - name: rush Release
+      run: rush publish
       
       
   
