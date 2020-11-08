@@ -1,6 +1,18 @@
 # Change Log - @junow/rush-common
 
-This log was last generated on Sun, 08 Nov 2020 17:45:46 GMT and should not be manually modified.
+This log was last generated on Sun, 08 Nov 2020 18:17:10 GMT and should not be manually modified.
+
+## 3.0.0
+Sun, 08 Nov 2020 18:17:10 GMT
+
+### Breaking changes
+
+- feat: fefefe
+
+### Minor changes
+
+- fix registry
+- fix package.json
 
 ## 2.3.0
 Sun, 08 Nov 2020 17:45:46 GMT

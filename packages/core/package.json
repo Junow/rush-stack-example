@@ -1,6 +1,6 @@
 {
   "name": "@junow/rush-core",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "url": "https://github.com/Junow/rush-stack-example.git"
   },
   "dependencies": {
-    "@junow/rush-common": "2.3.0"
+    "@junow/rush-common": "3.0.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.12.1",
