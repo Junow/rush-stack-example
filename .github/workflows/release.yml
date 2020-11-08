@@ -15,8 +15,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.18.0
+    - name: install rush
+      run: npm install -g @microsoft/rush
     - name: rush change
-      run: ruch change -v
+      run: rush change -v
     - name: rush install
       run: rush install --no-link
     - name: rush link
