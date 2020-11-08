@@ -28,8 +28,10 @@ jobs:
     - name: rush deploy
       run: rush deploy --overwrite -p @junow/rush-core
     - name: Add GiHub Package Token
-      run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.NODE_AUTH_TOKEN }}" > ~/.npmrc
+      run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > ~/.npmrc
     - name: deploy @junow/rush-core
-      run: cd common/deploy/packages/core && npm publish
+      run: |
+        cd common/deploy/packages/core
+        npm publish
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
