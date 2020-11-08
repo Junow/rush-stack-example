@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
@@ -21,6 +21,8 @@ jobs:
       run: rush change -v
     - name: rush install
       run: rush install --no-link
+    - name: rush link
+      run: rush link
     - name: rush build
       run: rush build --verbose
     - name: rush Deploy
