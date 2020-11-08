@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
+  "dependencies": {
     "@junow/rush-common": "1.0.0"
   },
   "devDependencies": {
