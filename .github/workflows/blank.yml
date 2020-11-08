@@ -1,0 +1,29 @@
+
+name: Release
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.18.0
+    - name: rush change
+      run: ruch change -v
+    - name: rush install
+      run: rush install --no-link
+    - name: rush link
+      run: rush link
+    - name: rush rebuild
+      run: rush rebuild --ship --verbose
+      
+      
+  
+      
