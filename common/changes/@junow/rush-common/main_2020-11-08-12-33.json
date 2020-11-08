@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@junow/rush-common",
+      "comment": "add comment",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@junow/rush-common",
+  "email": "junow@rainist.com"
+}

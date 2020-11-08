@@ -21,13 +21,7 @@ jobs:
       run: rush change -v
     - name: rush install
       run: rush install --no-link
-    - name: rush link
-      run: rush link
     - name: rush build
       run: rush build --verbose
-    - name: rush Release
-      run: rush publish
-      
-      
-  
-      
+    - name: rush Deploy
+      run: rush deploy --overwrite -p @junow/rush-core

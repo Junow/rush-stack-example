@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/deploy-scenario.schema.json",
+  "deploymentProjectNames": ["@junow/rush-core"],
+  // "includeDevDependencies": true,
+  // "includeNpmIgnoreFiles": true,
+
+  /**
+   * Specify how links (symbolic links, hard links, and/or NTFS junctions) will be created in the deployed folder:
+   *
+   * - "default": Create the links while copying the files; this is the default behavior.
+   * - "script": A Node.js script called "create-links.js" will be written.  When executed, this script will
+   *   create the links described in the "deploy-metadata.json" output file.
+   * - "none": Do nothing; some other tool may create the links later.
+   */
+  // "linkCreation": "script",
+
+  //  "folderToCopy": "repo-tools/assets/deploy-config",
+
+  /**
+   * Customize how Rush projects are processed during deployment.
+   */
+  "projectSettings": [
+    {
+      "projectName": "@junow/rush-core",
+      "additionalProjectsToInclude": [
+        "@junow/rush-common"
+      ]
+    //   /**
+    //    * The list can include any package name that is installed by Rush and resolvable via Node.js module
+    //    * resolution; however, if it resolves to a local Rush project, the "additionalProjectsToInclude"
+    //    * field will not be recursively applied.
+    //    */
+    //   "additionalDependenciesToInclude": [
+    //     // "@rushstack/node-core-library"
+    //   ],
+    //
+    //   /**
+    //    * This setting prevents specific dependencies from being deployed.  It only filters dependencies that
+    //    * are explicitly declared in package.json for this project.  It does not affect dependencies added
+    //    * via "additionalProjectsToInclude" or "additionalDependenciesToInclude", nor does it affect indirect
+    //    * dependencies.
+    //    *
+    //    * The "*" wildcard may be used to match zero or more characters.  For example, if your project already
+    //    * bundles its own dependencies, specify "dependenciesToExclude": [ "*" ] to exclude all package.json
+    //    * dependencies.
+    //    */
+    //   "dependenciesToExclude": [
+    //     // "@types/*"
+    //   ]
+    }
+  ]
+}
