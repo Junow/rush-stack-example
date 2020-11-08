@@ -1,6 +1,6 @@
 {
   "name": "@junow/rush-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is rush-common",
   "main": "index.js",
   "types": "dist/index.d.ts",
@@ -19,5 +19,8 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.29.0"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "name": "@junow/rush-common",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@junow/rush-common_v1.0.1",
+      "date": "Sun, 08 Nov 2020 11:38:05 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "add comment"
+          }
+        ]
+      }
+    }
+  ]
+}

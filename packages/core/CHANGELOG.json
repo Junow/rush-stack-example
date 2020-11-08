@@ -1,0 +1,17 @@
+{
+  "name": "@junow/rush-core",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@junow/rush-core_v1.0.1",
+      "date": "Sun, 08 Nov 2020 11:38:05 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@junow/rush-common\" from `1.0.0` to `1.0.1`"
+          }
+        ]
+      }
+    }
+  ]
+}
