@@ -23,8 +23,8 @@ jobs:
       run: rush install --no-link
     - name: rush link
       run: rush link
-    - name: rush rebuild
-      run: rush rebuild --ship --verbose
+    - name: rush build
+      run: rush build
       
       
   
