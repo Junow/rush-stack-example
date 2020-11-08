@@ -7,9 +7,13 @@
     "prebuild": "rm -rf ./dist",
     "build": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["monorepo", "npm", "github", "rush", "rush stack"],
+  "author": "taristmas@gmail.com",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Junow/rush-stack-example.git"
+  },
   "dependencies": {
     "@junow/rush-common": "2.3.0"
   },

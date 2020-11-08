@@ -8,9 +8,13 @@
     "prebuild": "rm -rf ./dist",
     "build": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["monorepo", "npm", "github", "rush", "rush stack"],
+  "author": "taristmas@gmail.com",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Junow/rush-stack-example.git"
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.12.1",
     "rollup": "^2.33.1",
